@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+{% load static %}
+
+
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'ppapp/cssfile.css' %}">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <script type="text/javascript" src="{% static 'js/javas.js' %}"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leader-line@1.0.5/leader-line.min.js"></script>
+</head>
+<body>
+
+    <div class="kakomi" id="movebox"><span class="title">Step1</span>{{question1}}</div>
+
+    <a href="javascript:dainyu();" class="btn-social-flat b1">
+        <span class="btn-social-flat-icon btn-social-flat-icon--dainyu">
+            <i class="fas fa-angle-double-left"></i>
+        </span>
+        <span class="btn-social-flat-text">代入</span>
+    </a>
+
+    <a href="javascript:add();" class="btn-social-flat b2">
+        <span class="btn-social-flat-icon btn-social-flat-icon--plus">
+            <i class="fa fa-plus"></i>
+        </span>
+        <span class="btn-social-flat-text">加算</span>
+    </a>
+
+    <a href="javascript:sub()" class="btn-social-flat b3">
+        <span class="btn-social-flat-icon btn-social-flat-icon--minus">
+            <i class="fa fa-minus"></i>
+        </span>
+        <span class="btn-social-flat-text">減算</span>
+    </a>
+
+    <a href="javascript:mul()" class="btn-social-flat b4">
+        <span class="btn-social-flat-icon btn-social-flat-icon--times">
+            <i class="fa fa-times"></i>
+        </span>
+        <span class="btn-social-flat-text">乗法</span>
+    </a>
+
+    <a href="javascript:div()" class="btn-social-flat b5">
+        <span class="btn-social-flat-icon btn-social-flat-icon--divide">
+            <i class="fa fa-divide"></i>
+        </span>
+        <span class="btn-social-flat-text">除法</span>
+    </a>
+
+    <a href="javascript:branch()" class="btn-social-flat b6">
+        <span class="btn-social-flat-icon btn-social-flat-icon--branch">
+            <i class="fas fa-code-branch fa-rotate-180"></i>
+        </span>
+        <span class="btn-social-flat-text">分岐</span>
+    </a>
+
+    <a href="javascript:loop()" class="btn-social-flat b7">
+        <span class="btn-social-flat-icon btn-social-flat-icon--alt">
+            <i class="fas fa-sync-alt"></i>
+        </span>
+        <span class="btn-social-flat-text">ループ</span>
+    </a>
+
+    <a href="javascript:upload()" class="btn-social-flat b8">
+        <span class="btn-social-flat-icon btn-social-flat-icon--upload">
+            <i class="fas fa-upload"></i>
+        </span>
+        <span class="btn-social-flat-text">参照</span>
+    </a>
+
+    <div class="box26">
+        <span class="box-title">変数一覧</span>
+        {% for i in hensulist%}
+            <p>{{i}}</p>
+        {%endfor%}
+    </div>
+
+
+    <form action="" method="post" id="syori">
+        {%csrf_token%}
+        <input type="submit" name="clear" class="rstbt" value="リセット"/>
+        <td><input type="submit" id="sbbt" name="chack" class="sub" value="✓"/></td>
+    </form>
+
+    {% if flag == "1" %}
+    <script>
+        alert('正解');
+    </script>
+    {% endif %}
+
+    {% if flag == "0" and flag2 == "1"%}
+    <script>
+        alert('不正解');
+
+    </script>
+    {% endif %}
+
+</body>
+</html>

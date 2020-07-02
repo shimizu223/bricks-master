@@ -1,0 +1,429 @@
+@font-face {
+	font-family: 'tumikifont';
+	src: url(../font/LVDCANS_.TTF);
+}
+
+.img{
+    width:100%;
+    height:20%;
+    z-index: 2;
+}
+
+.btn-social-flat {
+  color: #484848;
+  display: inline-block;
+  height: 45px;
+  font-family: "UD デジタル 教科書体 NP-B","UD Digi Kyokasho NP-B";
+  font-size: 20px;
+  line-height: 45px;
+  background: #eaeef1;
+  text-decoration: none;
+  margin: 1em;
+  z-index: 2;
+}
+
+.btn-social-flat-icon {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  color: white;
+}
+.btn-social-flat-icon i {
+  font-size: 22px;
+  line-height: 45px;
+  transition: .3s;
+}
+.btn-social-flat-text {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+}
+
+.btn-social-flat-icon--dainyu {
+  background:#fd7171;
+}
+.btn-social-flat-icon--plus {
+  background:#1da1f3;
+}
+.btn-social-flat-icon--minus {
+  background:#00fa9a;
+}
+.btn-social-flat-icon--times {
+  background:#fdd35c;
+}
+.btn-social-flat-icon--divide {
+  background:#ee82ee;
+}
+.btn-social-flat-icon--branch {
+  background:#f3a68c;
+}
+.btn-social-flat-icon--alt {
+  background:#504946;
+}
+.btn-social-flat-icon--upload {
+  background:#deb887;
+}
+
+
+.btn-social-flat:hover .btn-social-flat-icon i {
+  -webkit-transform: rotateX(360deg);
+  transform: rotateX(360deg);
+}
+
+.kakomi {
+ position:fixed;
+ padding: 40px 20px 15px;
+ margin: 2.5em auto;
+ width: 90%;
+ font-family: "UD デジタル 教科書体 NP-B","UD Digi Kyokasho NP-B";
+ font-weight: bold;
+ color: #555555; /* 文字色 */
+ background-color: #ffffff;
+ border: 2px solid #c0c0c0;
+ z-index: 2;
+}
+
+.title {
+ position: fixed;
+ top:30px;
+ padding: 4px 20px;
+ background-color: #ffffff;
+ color: #555555; /*タイトル色*/
+ font-family: "UD デジタル 教科書体 NP-B","UD Digi Kyokasho NP-B";
+ font-weight: bold;
+ border-left: 2px dotted rgba(0,0,0,.1);
+ border-right: 2px dotted rgba(0,0,0,.1);
+ box-shadow: 0 0 5px rgba(0,0,0,0.2);
+ transform: rotate(-5deg);
+}
+
+
+.b1{
+ position:fixed;
+ top: 27%;
+ left:30px;
+}
+
+.b2{
+ position:fixed;
+ top: 35%;
+ left:30px;
+ }
+
+.b3{
+ position:fixed;
+ top: 43%;
+ left:30px;
+}
+
+.b4{
+ position:fixed;
+ top: 51%;
+ left:30px;
+}
+
+.b5{
+ position:fixed;
+ top: 59%;
+ left:30px;
+}
+
+.b6{
+ position:fixed;
+ top: 67%;
+ left:30px;
+}
+
+.b7{
+ position:fixed;
+ top: 75%;
+ left:30px;
+}
+
+.b8{
+ position:fixed;
+ top: 83%;
+ left:30px;
+}
+
+.te0 {
+	position: absolute;
+	top : -55px;
+	left : -10px;
+	margin: 100px 50px;
+
+}
+
+.te1 {
+	position: absolute;
+	top : -55px;
+	left : 0px;
+	margin: 100px 50px;
+
+}
+
+.te2{
+    position: absolute;
+    top : -55px;
+	left : 90px;
+	margin: 100px 50px;
+
+}
+
+.te3 {
+	position: absolute;
+	top : -55px;
+	left : 40px;
+	margin: 100px 50px;
+
+}
+
+.te4{
+    position: absolute;
+	top : -55px;
+	left : 60px;
+	margin: 100px 50px;
+}
+
+.te5{
+    position: absolute;
+	top : -55px;
+	left : 120px;
+	margin: 100px 50px;
+}
+
+.connectbtn{
+    position:absolute;
+    left:175px;
+    font-family: 'Comic Sans MS', sans-serif;
+    border: none;
+    color:#ffffff;
+    font-weight: bold;
+
+}
+
+
+
+.cp_iptxt {
+    font-family: "UD デジタル 教科書体 NP-B","UD Digi Kyokasho NP-B";
+	font-size:20px;
+	box-sizing: border-box;
+	color:#ffffff;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	border: none;
+	background: transparent;
+}
+.ef input[type='text']:focus {
+	border-bottom: 1.5px solid #ffffff;
+	outline: none;
+}
+.cp_iptxt_size{
+    width: 72px;
+}
+.cp_iptxt_size2{
+    width: 50px;
+}
+
+.dl{
+    position:absolute;
+    left:92px;
+    top : 55px;
+    color:#ffffff
+}
+
+.dl3{
+    position:absolute;
+    left:10px;
+    top : 20px;
+    color:#ffffff
+}
+
+.compare{
+    position:absolute;
+    font-size:20px;
+    left :95px;
+    top: 40px;
+    background: #f3a68c;
+    border: solid #f3a68c;
+    width:53px;
+    height:40px;
+}
+
+.endtext{
+    line-height: 110px;
+    font-family: "UD デジタル 教科書体 NP-B","UD Digi Kyokasho NP-B";
+	font-size:25px;
+}
+
+.box{
+    position:absolute;
+    top:170px;
+    left:300px;
+    width:230px;
+    height:100px;
+    margin: 0;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
+    border-radius: 20px 20px 20px 20px;
+}
+
+.sub {
+  position:fixed;
+  bottom:30px;
+  right:30px;
+  font-size:80px;
+  display: inline-block;
+  text-decoration: none;
+  color: #668ad8;
+  background:#ffffff;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  border: double 4px #668ad8;
+  text-align: center;
+  overflow: hidden;
+  transition: .6s;
+  z-index: 2;
+}
+
+.sub:hover {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.pco{
+ position:absolute;
+ top:55px;
+ left:15px;
+ color:#ffffff;
+ font-family:"cursive";
+ font-weight: bold;
+}
+
+.box26 {
+    position:fixed;
+    top:180px;
+    right:30px;
+    margin: 2em 0;
+    width: 120px;
+    padding: 40px 20px;
+    border: solid 2px #668ad8;
+    border-radius: 8px;
+    z-index: 2;
+}
+.box26 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #FFF;
+    color: #668ad8;
+    font-weight: bold;
+}
+.box26 p {
+    margin: 0;
+    padding: 0;
+}
+
+.rstbt{
+    position:fixed;
+    top:230px;
+    right:45px;
+    color: #668ad8;
+    font-weight: bold;
+    background-color: #fff;
+    border: double 0px #fff;
+    z-index: 2;
+}
+
+.div{
+    position:absolute;
+    width: 65%;
+    height: 1000%;
+    top:30%;
+    left:17.5%;
+    border: 2px solid #c0c0c0;
+}
+
+.btn {
+  display: inline-block;           /* 改行なしのブロック要素 */
+  position: absolute;           /* 相対位置指定 */
+  top:15%;
+  left:38.7%;
+  width: 7.5%;                    /* 横幅 */
+  height: 4%;                    /* 高さ */
+  text-align: center;              /* 水平方向は中央揃え */
+  line-height: 28px;               /* 行の高さ */
+}
+.btn span {
+  display: block;                  /* ブロック要素 */
+  position: absolute;/* 親要素の左上を基準位置 */
+  font-size : 12px;
+  width: 100%;                     /* 横幅 */
+  height: 100%;                    /* 高さ */
+  transform-style: preserve-3d;    /* 重なりを3Dで表示 */
+  transition: 0.5s;   /* 変化時間 */
+}
+.btn span:nth-child(1) {
+  background-color: #fdd35c;   /* Buttonボタンの色 */
+  color: #ffffff;          /* Buttonの文字の色 */
+  font-family: "UD デジタル 教科書体 NP-B","UD Digi Kyokasho NP-B";
+  transform: rotateX(0deg);        /* 横軸の回転なし */
+  transform-origin: 0 50%  -12.5px;  /* transformの起点 */
+}
+.btn span:nth-child(2) {
+  background-color: #fdd35c;   /* Clickボタンの色 */
+  color: #ffffff;          /* Clickの文字の色 */
+  transform: rotateX(90deg);       /* 横軸で90度回転 */
+  transform-origin: 0 50%  -12.5px;  /* transformの起点 */
+}
+.btn:hover span:nth-child(1) {
+  transform: rotateX(-90deg);      /* 横軸で前方に90度回転 */
+}
+.btn:hover span:nth-child(2) {
+  transform: rotateX(0deg);        /* 横軸の回転なし */
+}
+
+.sel{
+  position:absolute;
+  top:15%;
+  right:36.9%;
+  background:#fdd35c;
+  width:8%;
+  height:4%;
+  border: double 0px #fff;
+  font-family: "UD デジタル 教科書体 NP-B","UD Digi Kyokasho NP-B";
+  color:#ffffff;
+  text-align:center;
+}
+
+/*ログイン*/
+body,p,form,input{margin: 0}
+#form{
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #555;
+    }
+
+form p{
+    font-size: 14px;
+    }
+
+.form-title{
+    text-align: center;
+    }
+
+.mail,.pass{
+    margin-bottom: 20px;
+    }
+
+.submit{
+    text-align: right;
+    }

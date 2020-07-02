@@ -1,0 +1,24 @@
+<html lang="ja">
+{% load static %}
+
+<head>
+  <link rel="stylesheet" href="{% static 'ppapp/cssfile.css' %}">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+  <body>
+
+  <div id="form">
+    <p class="form-title">Login</p>
+    <form method="POST">
+      {% csrf_token %}
+        <p>Email</p>
+        <p class="mail">{{ form.username }}</p>
+        <p>Password</p>
+        <p class="pass">{{ form.password }}</p>
+        <p class="check"><input type="checkbox" name="checkbox" />パスワードを保存</p>
+        <p class="submit"><input type="submit" value="Login" /></p>
+        <a href="/create/">アカウント作成</a>
+    </form>
+  </div>
+  </body>
+</html>
