@@ -1,4 +1,4 @@
-from .models import hensu,hensu1,hensu2,hensu3,hensu4,hensu5
+from .models import hensu,hensu1,hensu2,hensu3,hensu4,hensu5,hensu,hensu6,hensu7,hensu8,hensu9,hensu10,hensu11,hensu12,hensu13,hensu14,hensu15
 from .enzan import fun,branch,lines
 from collections import defaultdict
 from django.shortcuts import render, redirect
@@ -8,7 +8,7 @@ from django.contrib.auth.models import User
 from django.views.generic import CreateView, TemplateView
 from .form import UserCreateForm, LoginForm
 
-modelbox=[hensu,hensu1,hensu2,hensu3,hensu4,hensu5] #ユーザごとのデータベースのリスト
+modelbox=[hensu,hensu1,hensu2,hensu3,hensu4,hensu5,hensu,hensu6,hensu7,hensu8,hensu9,hensu10,hensu11,hensu12,hensu13,hensu14,hensu15] #ユーザごとのデータベースのリスト
 
 
 #アカウント作成

@@ -1,5 +1,5 @@
-from .models import hensu,hensu1,hensu2,hensu3,hensu4,hensu5
-modelbox=[hensu,hensu1,hensu2,hensu3,hensu4,hensu5]
+from .models import hensu,hensu1,hensu2,hensu3,hensu4,hensu5,hensu,hensu6,hensu7,hensu8,hensu9,hensu10,hensu11,hensu12,hensu13,hensu14,hensu15
+modelbox=[hensu,hensu1,hensu2,hensu3,hensu4,hensu5,hensu,hensu6,hensu7,hensu8,hensu9,hensu10,hensu11,hensu12,hensu13,hensu14,hensu15]
 
 
 def lines(line,answer): #変数の接続先を辞書型で登録する
